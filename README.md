@@ -1,7 +1,12 @@
 # mask2shp
 ## 描述
-Mask RCNN输出结果（即mask）转shapefile文件，这是核心代码。
-看看demo就应该知道了怎么用，放在你的mask rcnn代码的文件夹里面就可以了，输入图像是带有地理坐标的tiff图像，也就是geotiff格式。
+目标检测模型（如Mask RCNN）输出结果（即mask）转shapefile文件  
+图像分割模型(如unet、inception v3)等模型的输出结果转geotiff图像
+
+## 使用
+看看demo就应该知道了怎么用。
+*输入*：是带有地理坐标的tiff图像，也就是geotiff格式的图像
+*输出图像*：shapefile或者geotiff
 
 ## 算法
 主要方法就是:  
