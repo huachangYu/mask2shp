@@ -4,7 +4,7 @@
 图像分割模型(如unet、inception v3)等模型的输出结果转geotiff图像
 
 ## 使用
-*输入*：是带有地理坐标的tiff图像，也就是geotiff格式的图像
+*输入*：是带有地理坐标的tiff图像，也就是geotiff格式的图像  
 *输出图像*：shapefile或者geotiff
 
 ## 算法
